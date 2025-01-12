@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MCQ Questions</title>
+    <script src="script.js" defer></script>
+    <link rel="stylesheet" href="style.css">
+
+</head>
+<body>
+    <h1>MCQ Quiz</h1>
+    <form id="quiz-form">
+        <!-- Question 1 -->
+        <div class="question" id="question1">
+            <h3>1. Why is it important to find out whether a customer has any food allergies/restrictions? ?</h3>
+            <ul class="options">
+                <li id="li-q1-a"><input type="radio" name="q1" value="q1-a" id="q1-a"> <label for="q1-a">Safety and religious/lifestyle preferences</label></li>
+                <li id="li-q1-b"><input type="radio" name="q1" value="q1-b" id="q1-b"> <label for="q1-b">For fun</label></li>
+                <li id="li-q1-c"><input type="radio" name="q1" value="q1-c" id="q1-c"> <label for="q1-c">To win prizes</label></li>
+                <li id="li-q1-d"><input type="radio" name="q1" value="q1-d" id="q1-d"> <label for="q1-d">Actually, not important</label></li>
+            </ul>
+
+            <button type="button" onclick="submitQn1()">Submit</button>
+            <span id="q1-result" style="font-weight: bold; margin-left: 10px;"></span>
+        </div>
+
+        <!-- Question 2 -->
+        <div class="question" id="question2">
+            <h3>2. What is the benefit of identifying the symbol that specifies the customer’s allergy/restriction? ?</h3>
+            <ul class="options">
+                <li id="li-q2-a"><input type="radio" name="q2" value="q2-a" id="q2-a"> <label for="q2-a">No benefit</label></li>
+                <li id="li-q2-b"><input type="radio" name="q2" value="q2-b" id="q2-b"> <label for="q2-b">Helps the company identify dishes he/she can eat</label></li>
+                <li id="li-q2-c"><input type="radio" name="q2" value="q2-c" id="q2-c"> <label for="q2-c">To waste time</label></li>
+                <li id="li-q2-d"><input type="radio" name="q2" value="q2-d" id="q2-d"> <label for="q2-d">For fun</label></li>
+            </ul>
+
+            <button type="button" onclick="submitQn2()">Submit</button>
+            <span id="q2-result" style="font-weight: bold; margin-left: 10px;"></span>
+        </div>
+
+        <!-- Question 3 -->
+        <div class="question" id="question3">
+            <h3>3. Which dishes on the menu are free of common allergens? ?</h3>
+            <ul class="options">
+                <li id="li-q3-a"><input type="radio" name="q3" value="q3-a" id="q3-a"> <label for="q3-a">None</label></li>
+                <li id="li-q3-b"><input type="radio" name="q3" value="q3-b" id="q3-b"> <label for="q3-b">All</label></li>
+                <li id="li-q3-c"><input type="radio" name="q3" value="q3-c" id="q3-c"> <label for="q3-c">Vegetarian</label></li>
+                <li id="li-q3-d"><input type="radio" name="q3" value="q3-d" id="q3-d"> <label for="q3-d">The ones with fish symbols</label></li>
+            </ul>
+
+            <button type="button" onclick="submitQn3()">Submit</button>
+            <span id="q3-result" style="font-weight: bold; margin-left: 10px;"></span>
+        </div>
+
+        <!-- Question 4 -->
+        <div class="question" id="question4">
+            <h3>4. Why do we note the existence of allergy or restriction on the order ticket? ?</h3>
+            <ul class="options">
+                <li id="li-q4-a"><input type="radio" name="q4" value="4-a" id="q4-a"> <label for="q4-a">For fun</li>
+                <li id="li-q4-b"><input type="radio" name="q4" value="q4-b" id="q4-b"> <label for="q4-b">We do not do this</label></li>
+                <li id="li-q4-c"><input type="radio" name="q4" value="q4-c" id="q4-c"> <label for="q4-c">Waste time</label></li>
+                <li id="li-q4-d"><input type="radio" name="q4" value="q4-d" id="q4-d"> <label for="q4-d">Make sure kitchen staff do not add forbidden ingredients to dish</label></li>
+            </ul>
+
+            <button type="button" onclick="submitQn4()">Submit</button>
+            <span id="q4-result" style="font-weight: bold; margin-left: 10px;"></span>
+        </div>
+
+        <!-- Question 5 -->
+        <div class="question" id="question5">
+            <h3>5. What are the two ways in which allergens/excluded foods may be introduced into a dish??</h3>
+            <ul class="options">
+                <li id="li-q5-a"><input type="radio" name="q5" value="q5-a" id="q5-a"> <label for="q5-a">Deliberately and by cross-contamination</label></li>
+                <li id="li-q5-b"><input type="radio" name="q5" value="q5-b" id="q5-b"> <label for="q5-b">With fingers and toes</label></li>
+                <li id="li-q5-c"><input type="radio" name="q5" value="q5-c" id="q5-c"> <label for="q5-c">By sneezing onto food </label></li>
+                <li id="li-q5-d"><input type="radio" name="q5" value="q5-d" id="q5-d"> <label for="q5-d">This would never happen</label></li>
+            </ul>
+
+            <button type="button" onclick="submitQn5()">Submit</button>
+            <span id="q5-result" style="font-weight: bold; margin-left: 10px;"></span>
+
+        </div>
+
+    </form>
+ 
+</body>
+</html>
